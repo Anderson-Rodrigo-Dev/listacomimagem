@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.imagens {
+  width: 100%;
+  margin-top: 129px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imagens .image .text {
+  padding: 0 0 43px 19px;
+  font-family: "Public Sans";
+  color: #fff;
+}
+.imagens h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.imagens p {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.imagens .image {
+  display: flex;
+  align-items: flex-end;
+  width: 355px;
+  height: 431px;
+  background-size: cover;
+}
+
+.rome {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../image/6.jpg) center center;
+}
+
+.starry {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../image/3.jpg) center center;
+}
+
+.sand-and-sea {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../image/4.jpg) center center;
+}
+
+.night {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../image/5.jpg) center center;
+}
